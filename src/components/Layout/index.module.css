@@ -1,0 +1,22 @@
+
+.v {
+  display: flex;
+  flex-direction: column;
+}
+
+.h {
+  display: flex;
+  flex-direction: row;
+}
+
+.v.hcenter {
+  align-items: center;
+}
+
+.v.vcenter {
+  justify-content: center;
+}
+
+.h.center {
+  justify-content: center;
+}
